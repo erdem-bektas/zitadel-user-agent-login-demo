@@ -2,6 +2,10 @@
 
 Bu proje, self-hosted bir Zitadel kurulumu ile (User Agent / PKCE akışı kullanarak) React üzerinde kimlik doğrulama (Login / Logout / Oturum Yönetimi) işlemlerinin nasıl yapılacağını gösteren örnek bir uygulamadır.
 
+## 🔗 İlgili Backend Projesi
+
+Bu frontend projesi, güvenli API istekleri (Protected Endpoints) ve role dayalı yetkilendirme senaryoları için **[zitadel-api-app-demo](https://github.com/erdem-bektas/zitadel-api-app-demo)** adlı Node.js (Express) backend projesi ile birlikte çalışmak üzere tasarlanmıştır. Backend tarafındaki token doğrulama süreçleri için ilgili repoya göz atabilirsiniz.
+
 ## Kurulum ve Çalıştırma
 
 Projede Vite kullanılmıştır. Paketleri yüklemek ve geliştirici sunucusunu başlatmak için şu komutları kullanabilirsiniz:
